@@ -44,7 +44,7 @@ pierex your_script.py
 
 ### Optional Flags
 - `-d`, `--dir <path>`: Specify the directory to watch (default: current directory)
-- `-e`, `--ext <ext1,ext2>`: Watch specific file extensions (default: `.py`)
+- `-e`, `--ext <ext1,ext2>`: Watch specific file extensions (default: `py`)
 
 Example:
 ```sh

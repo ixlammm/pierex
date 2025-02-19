@@ -100,7 +100,7 @@ async def run():
 
     args = parser.parse_args()
 
-    print(f"{Fore.GREEN}PyReX \U0001F996 is watching your files")
+    print(f"{Fore.GREEN}PieReX \U0001F996 is watching your files")
     print(f"{Fore.YELLOW}Press \033[4mCTRL + C{Style.RESET_ALL}{Fore.YELLOW} do break from the loop{Style.RESET_ALL}")
 
     async def create_process():
