@@ -1,6 +1,6 @@
-# Pierex
+# PieReX (Python Re eXecute)
 
-Pierex is a lightweight file watcher for Python development. It monitors files and directories for changes and automatically restarts the given Python script when modifications occur. This helps streamline the development process by reducing manual restarts.
+PieReX is a lightweight file watcher for Python development. It monitors files and directories for changes and automatically restarts the given Python script when modifications occur. This helps streamline the development process by reducing manual restarts.
 
 ## Features
 - Watches for file changes in the specified directories
