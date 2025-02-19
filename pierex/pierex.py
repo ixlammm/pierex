@@ -89,7 +89,7 @@ async def watch(path: str, ext: list[str]):
         except asyncio.CancelledError:
             break
 
-async def main():
+async def run():
     parser = argparse.ArgumentParser(
         prog="pierex",
         description="PieReX is a python script that watches your files and restarts your program when a file changes")
@@ -137,5 +137,5 @@ async def main():
             break
 
 
-if __name__ == '__main__':
-    asyncio.run(main())
+def main():
+    asyncio.run(run())

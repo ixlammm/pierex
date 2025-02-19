@@ -8,6 +8,31 @@ Pierex is a lightweight file watcher for Python development. It monitors files a
 - Improves development workflow by reducing manual intervention
 
 ## Installation
+
+You can either install the tool manually by building it first or directly from the PyPI index
+
+### Manually 
+
+Install packages required for building:
+
+```sh
+pip install setuptools wheel twine
+```
+
+Build the tool:
+
+```sh
+python setup.py sdist bdist_wheel 
+```
+
+Then finally install it using pip:
+
+```sh
+pip install .
+```
+
+### From the PyPI Index
+
 ```sh
 pip install pierex
 ```
